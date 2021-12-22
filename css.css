@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Gwendolyn&family=Zilla+Slab:wght@300&display=swap');
+
+.smallerpic {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.resizeimg {
+    width: 45%;
+    height: auto;
+}
+
+.cursive {
+    font-family: 'Calligraffitti', cursive;
+}
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merienda:wght@700&family=Patrick+Hand&display=swap');
+
+.font {
+    font-family: 'Patrick Hand';
+} */
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: 'Zilla Slab', serif;
+  font-size: large;
+}
+
+.myfont {
+  font-family: 'Zilla Slab', serif;
+}
