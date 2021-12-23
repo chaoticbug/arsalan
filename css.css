@@ -23,13 +23,13 @@
     font-family: 'Patrick Hand';
 } */
 
-h1 {
-    font-family: 'Anton', sans-serif;
+h1, h2 {
+    font-family: 'Zilla Slab', sans-serif;
 }
 
-h2{
+/* h2{
     font-family: 'Anton', sans-serif;
-}
+} */
 
 p {
   font-family: 'Zilla Slab', serif;
