@@ -23,8 +23,9 @@
     font-family: 'Patrick Hand';
 } */
 
-h1, h2 {
+h1, h2, a {
     font-family: 'Zilla Slab', sans-serif;
+    text-align: center;
 }
 
 /* h2{
@@ -34,6 +35,7 @@ h1, h2 {
 p {
   font-family: 'Zilla Slab', serif;
   font-size: large;
+  text-align: center;
 }
 
 .myfont {

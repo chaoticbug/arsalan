@@ -2,7 +2,7 @@
 
 /*css x button*/
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Gwendolyn&family=Staatliches&family=Zilla+Slab:wght@300&display=swap');
 
 html,
 body {
@@ -13,7 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 div[class*=box] {
@@ -59,7 +58,7 @@ div[class*=box] {
   z-index: 1;
   transition: all 0.5s;
   border: 1px solid rgba(255,255,255,0.2);
-  background-color: rgba(255,255,255,0.1);
+  /* background-color: rgba(255,255,255,0.1); */
 }
 .btn-two::after {
   content: '';
@@ -71,15 +70,15 @@ div[class*=box] {
   z-index: 1;
   transition: all 0.5s;
   border: 1px solid rgba(255,255,255,0.2);
-  background-color: rgba(255,255,255,0.1);
+  /* background-color: rgba(255,255,255,0.1); */
 }
 .btn-two:hover::before {
   transform: rotate(-45deg);
-  background-color: rgba(255,255,255,0);
+  /* background-color: rgba(255,255,255,0); */
 }
 .btn-two:hover::after {
   transform: rotate(45deg);
-  background-color: rgba(255,255,255,0);
+  /* background-color: rgba(255,255,255,0); */
 }
 
 
@@ -134,6 +133,6 @@ body, html {
 
   
   
-  .cursive {
-    font-family: 'Gwendolyn', cursive;
+  .cutefont {
+    font-family:'Staatliches', sans-serif;
 }
